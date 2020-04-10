@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: 1.4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-12 15:57+0530\n"
-"PO-Revision-Date: 2016-03-08 06:00+0200\n"
+"PO-Revision-Date: 2020-04-10 17:48+0500\n"
 "Last-Translator: Andrew <andrew.nagy@the159.com>\n"
 "Language-Team: Russian <http://weblate.freepbx.org/projects/freepbx/"
 "framework/ru_RU/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2.4\n"
+"X-Generator: Poedit 2.3\n"
 
 #: amp_conf/htdocs/admin/page.modules.php:1210
 #, php-format
@@ -27,7 +27,7 @@ msgid ""
 "supported by the %s team but may receive some level of support by the "
 "authors."
 msgstr ""
-"Модулей из расширенного репозитория в целом меньше, и по ним можно ожидать "
+" Модулей из расширенного репозитория в целом меньше, и по ним можно ожидать "
 "низкий уровень поддержки. Неподдерживаемый репозиторий содержит модули, "
 "которые не поддерживаются службой поддержки %s, но можно рассчитывать на их "
 "поддержку авторами."
@@ -46,15 +46,15 @@ msgstr " внутренний номер уже используется в: "
 
 #: amp_conf/htdocs/admin/libraries/Console/Moduleadmin.class.php:841
 msgid " not found"
-msgstr "не найдено"
+msgstr " не найдено"
 
 #: amp_conf/htdocs/admin/libraries/Console/Moduleadmin.class.php:640
 msgid " successfully deleted"
-msgstr "успешно удалено"
+msgstr " успешно удалено"
 
 #: amp_conf/htdocs/admin/libraries/Console/Moduleadmin.class.php:293
 msgid " successfully disabled"
-msgstr "успешно отключено"
+msgstr " успешно отключено"
 
 #: amp_conf/htdocs/admin/libraries/Console/Moduleadmin.class.php:291
 msgid " successfully disabled, but was not found in the remote list"
@@ -62,15 +62,15 @@ msgstr " успешно отключено, но не найдено в спис
 
 #: amp_conf/htdocs/admin/libraries/Console/Moduleadmin.class.php:281
 msgid " successfully enabled"
-msgstr "успешно включено"
+msgstr " успешно включено"
 
 #: amp_conf/htdocs/admin/libraries/Console/Moduleadmin.class.php:279
 msgid " successfully enabled, but was not found in the remote list"
-msgstr "успешно включено, но не найдено в списке"
+msgstr " успешно включено, но не найдено в списке"
 
 #: amp_conf/htdocs/admin/libraries/Console/Moduleadmin.class.php:651
 msgid " successfully uninstalled"
-msgstr "успешно удалено"
+msgstr " успешно удалено"
 
 #: ../core/views/trunks/trunk_header.php:2
 #, php-format
@@ -178,7 +178,7 @@ msgstr ""
 msgid "%s (Cur v. %s) should be upgraded to v. %s to fix security issues: %s"
 msgstr ""
 "%s (Текущая вер. %s) будет обновлен до вер. %s для устранения проблемы "
-"безопасности: %s "
+"безопасности: %s"
 
 #: amp_conf/htdocs/admin/libraries/modulefunctions.class.php:422
 #, php-format
@@ -234,7 +234,7 @@ msgstr ""
 #: amp_conf/htdocs/admin/libraries/Console/Moduleadmin.class.php:535
 #, php-format
 msgid "%s Security Alert (%s)"
-msgstr ""
+msgstr "%s Предупреждение безопасности (%s)"
 
 #: amp_conf/htdocs/admin/libraries/Builtin/UpdateManager.php:424
 #, php-format
@@ -408,7 +408,7 @@ msgstr "%s инсталлирован успешно"
 #: amp_conf/htdocs/admin/views/footer_content.php:28
 #, php-format
 msgid "%s is a registered trademark of"
-msgstr "%s является торговой маркой "
+msgstr "%s является торговой маркой"
 
 #: ../core/functions.inc.php:561
 #, php-format
@@ -450,7 +450,7 @@ msgid ""
 msgstr ""
 "%s требует новый браузер для правильного функционирования. Можно по-прежнему "
 "использовать %s с текущим браузером, но ваш опыт может уменьшиться если это "
-"не поддерживать как следует."
+"не поддерживать как следует"
 
 #: amp_conf/htdocs/admin/libraries/Console/Chown.class.php:398
 #: amp_conf/htdocs/admin/libraries/Console/Chown.class.php:433
@@ -542,7 +542,7 @@ msgstr ""
 
 #: amp_conf/htdocs/admin/config.php:200
 msgid ".htaccess files are disable on this webserver. Please enable them"
-msgstr ".htaccess отключен на вэб-сервере. Пожалуйста, включите."
+msgstr ".htaccess отключен на вэб-сервере. Пожалуйста, включите"
 
 #: amp_conf/htdocs/admin/config.php:213
 msgid ".htaccess files are not supported on this webserver."
@@ -668,7 +668,7 @@ msgid ""
 msgstr ""
 "Новый канальный драйвер протокола SIP chan_pjsip разработан на стеке PJSIP "
 "SIPМодульная сборка драйвера обеспечивает наиболее полную функциональность "
-"протокола SIP."
+"протокола SIP"
 
 #: amp_conf/htdocs/admin/libraries/BMO/Self_Helper.class.php:213
 #, php-format
@@ -807,7 +807,7 @@ msgid ""
 "installation and maintenance operations at an administration level"
 msgstr ""
 "Действия, которые можно применить к этому модулю. Обычно это инсталляция и "
-"обслуживание на административном уровне."
+"обслуживание на административном уровне"
 
 #: amp_conf/htdocs/admin/functions.inc.php:473 ../core/page.astmodules.php:140
 #: ../core/views/trunks/trunk_header.php:2
@@ -1069,7 +1069,7 @@ msgstr "Все включённые в модуль действия"
 #: amp_conf/htdocs/admin/libraries/Console/Moduleadmin.class.php:686
 #: amp_conf/htdocs/admin/libraries/Console/Moduleadmin.class.php:1033
 msgid "All modules up to date."
-msgstr "Все модули актуальны"
+msgstr "Все модули актуальны."
 
 #: amp_conf/htdocs/admin/libraries/BMO/Freepbx_conf.class.php:459
 msgid ""
@@ -1292,7 +1292,7 @@ msgstr ""
 
 #: amp.i18n.php:266 ../core/functions.inc.php:5722
 msgid "Asterisk Dial Options"
-msgstr "Опции Asterisk-команды Dial "
+msgstr "Опции команды Dial"
 
 #: ../core/views/trunks/trunk_header.php:386
 msgid ""
@@ -1369,7 +1369,7 @@ msgstr ""
 
 #: ../core/views/trunks/trunk_header.php:368
 msgid "Asterisk Trunk Dial Options"
-msgstr "Опции команды Dial для транка Asterisk "
+msgstr "Опции команды Dial для транка"
 
 #: amp.i18n.php:792
 msgid "Asterisk VMU Mask"
@@ -1431,7 +1431,7 @@ msgstr "Астериск не может быть запущен."
 #: amp_conf/htdocs/admin/libraries/BMO/Self_Helper.class.php:218
 #, php-format
 msgid "Attempted to load %s but it didn't define the class %s"
-msgstr "Попытка загрузить %s,но это не определило класс %s "
+msgstr "Попытка загрузить %s, но это не определило класс %s"
 
 #: amp_conf/htdocs/admin/libraries/BMO/Self_Helper.class.php:158
 #, php-format
@@ -1528,12 +1528,12 @@ msgid ""
 "You will still be able to login with the users below as long as their "
 "username does not exist in User Manager"
 msgstr ""
-"Тип авторизации установлен в значение 'usermanager' в расширенных "
-"настройках- имейте ввиду,что этот модуль на данный момент не обеспечивает "
-"полный контроль доступа и используется только как резервный,временный пока "
-"эта панель не будет перенесена т в Менеджер Пользователя. Вы по-прежнему "
-"можете авторизоваться под указанным ниже пользователями,до тех пор пока эти "
-"имена пользователей не существуют в Менеджере Пользователя."
+"Тип авторизации установлен в значение 'usermanager' в расширенных настройках "
+"- имейте ввиду, что этот модуль на данный момент не обеспечивает полный "
+"контроль доступа и используется только как резервный, временный пока эта "
+"панель не будет перенесена в модуль Управление пользователями. Вы по-"
+"прежнему можете авторизоваться под указанным ниже пользователями, до тех пор "
+"пока эти имена пользователей не существуют в Управление пользователями"
 
 #: ../core/functions.inc/drivers/Iax2.class.php:159
 #: ../core/functions.inc/drivers/PJSip.class.php:215
@@ -1813,7 +1813,7 @@ msgstr ""
 
 #: ../core/functions.inc.php:1054
 msgid "Call Recording Module Not Enabled"
-msgstr "модуль записи вызова не включен"
+msgstr "Модуль записи вызова не включен"
 
 #: amp.i18n.php:292
 msgid "Call Recording Policy"
@@ -2148,7 +2148,7 @@ msgstr "Проверяем поле %s.."
 
 #: upgrades/2.9.0alpha1/migrate_ampconf.php:19
 msgid "Checking for freepbx_settings table.."
-msgstr "Проверка таблицы  freepbx_settings"
+msgstr "Проверка таблицы freepbx_settings."
 
 #: ../core/install.php:462
 msgid "Checking for possibly invalid emergency caller id fields.."
@@ -2241,7 +2241,7 @@ msgstr ""
 
 #: ../core/assets/js/trunks/trunks.js:239
 msgid "Click here to insert a new pattern before this pattern"
-msgstr "Нажмите здесь для добавления нового шаблона перед этим ."
+msgstr "Нажмите здесь для добавления нового шаблона перед этим"
 
 #: ../core/assets/js/trunks/trunks.js:240
 msgid "Click here to remove this pattern"
@@ -2283,7 +2283,7 @@ msgstr "Кодеки"
 #: amp_conf/htdocs/admin/libraries/BMO/LoadConfig.class.php:334
 #, php-format
 msgid "Coding Error - don't understand '%s' from %s"
-msgstr "ошибка кодирования - не понятно %s из %s"
+msgstr "Ошибка кодирования - не понятно %s из %s"
 
 #: amp_conf/htdocs/admin/libraries/Console/Moduleadmin.class.php:60
 msgid "Colorize table based list"
@@ -2379,7 +2379,7 @@ msgstr "Контактная персона"
 
 #: ../core/views/trunks/pjsip.php:516
 msgid "Contact User to use in request."
-msgstr "Контактная персона при запросе"
+msgstr "Контактная персона при запросе."
 
 #: ../core/functions.inc/drivers/Sip.class.php:331
 #: ../core/views/trunks/pjsip.php:186
@@ -2619,7 +2619,7 @@ msgstr ""
 
 #: amp_conf/htdocs/admin/libraries/Console/Motd.class.php:71
 msgid "Current Network Configuration"
-msgstr "Текущая конфигурация сети "
+msgstr "Текущая конфигурация сети"
 
 #: amp_conf/htdocs/admin/views/module_admin/tab-summary.php:19
 msgid "Current PBX Version:"
@@ -3134,7 +3134,7 @@ msgstr ""
 
 #: ../core/views/trunks/custom.php:21
 msgid "Define the custom Dial String.  Include the token"
-msgstr "Укажите тип специального набора,"
+msgstr "Определить пользовательскую строку набора номера. Включая токен"
 
 #: ../core/views/did/advanced_form.php:124 ../core/views/did/basic_form.php:56
 msgid ""
@@ -3173,9 +3173,7 @@ msgstr "Удалены модуль(-и),приём аргумента моду�
 
 #: ../core/page.astmodules.php:57
 msgid "Deleting the modules.conf file will reset this to defaults."
-msgstr ""
-"Удаление файла modules.conf приведёт  к сбросу настроек к значениям по "
-"умолчанию"
+msgstr "Удаление файла modules.conf сбросит до значений по умолчанию."
 
 #: ../core/functions.inc/drivers/Sip.class.php:482
 msgid "Deny"
@@ -3232,7 +3230,7 @@ msgstr "Разорвать все сессии"
 
 #: amp_conf/htdocs/admin/libraries/Console/Session.class.php:44
 msgid "Destroying "
-msgstr "Разрыв"
+msgstr "Разрыв "
 
 #: amp_conf/htdocs/admin/libraries/Console/Session.class.php:35
 msgid "Destroying session"
@@ -3347,7 +3345,8 @@ msgstr ""
 
 #: ../core/Core.class.php:1503
 msgid "Device Extension was blank or there were no settings defined"
-msgstr "Внутренний номер устройства не заполнен или не были указаны настройки."
+msgstr ""
+"Внутренний номер устройства не заполнен или не были определены настройки"
 
 #: ../core/functions.inc.php:5999
 msgid "Device ID"
@@ -3527,7 +3526,7 @@ msgstr "Отключено;Ожидание %s для %s"
 
 #: amp_conf/htdocs/admin/libraries/Console/Moduleadmin.class.php:1112
 msgid "Disabled; Pending upgrade to "
-msgstr "Отключено;Ожидание обновление до"
+msgstr "Отключено; Ожидание обновления до "
 
 #: amp_conf/htdocs/admin/views/module_admin/tab-modules.php:120
 msgid "Disabled; up to date"
@@ -3535,11 +3534,11 @@ msgstr "Деактивирован; обновлён"
 
 #: amp_conf/htdocs/admin/libraries/Console/Moduleadmin.class.php:1286
 msgid "Disables module[s] accepts argument module[s]"
-msgstr "Отключает принятие  аргумента  модулем "
+msgstr "Отключает модуль(и)  принимает аргумент модуль(и)"
 
 #: amp_conf/htdocs/admin/libraries/Console/Moduleadmin.class.php:1310
 msgid "Disables repo, accepts argument repo[s]"
-msgstr "Отключает репозиторий, принимает аргумент  "
+msgstr "Отключает репозиторий, принимает аргумент репозитарий(и)"
 
 #: amp_conf/htdocs/admin/page.modules.php:286
 #, php-format
@@ -3718,7 +3717,7 @@ msgstr "Загрузить локальные шаблоны"
 
 #: amp_conf/htdocs/admin/views/module_admin/upload.php:37
 msgid "Download Remote Module"
-msgstr "Загрузить модуль "
+msgstr "Загрузить модуль"
 
 #: amp_conf/htdocs/admin/views/module_admin/tab-modules.php:45
 #: amp_conf/htdocs/admin/views/module_admin/tab-modules.php:467
@@ -3742,7 +3741,7 @@ msgstr "Скачать и обновить до %s"
 #: amp_conf/htdocs/admin/libraries/Console/Moduleadmin.class.php:1288
 msgid "Download and install module[s], accepts argument module[s] or URLs"
 msgstr ""
-"Загрузить и установить модуль(-и), принять аргумент модуля(-ей) или URL-ы "
+"Загрузить и установить модуль(-и), принять аргумент модуля(-ей) или URL-ы"
 
 #: amp_conf/htdocs/admin/libraries/Console/Moduleadmin.class.php:462
 #, php-format
@@ -3941,7 +3940,7 @@ msgstr ""
 
 #: ../core/views/routing/grid.php:16 ../core/views/routing/grid.php:18
 msgid "Emergency Route"
-msgstr "Вспомогательный маршрут "
+msgstr "Маршрут экстренных служб"
 
 #: amp_conf/htdocs/admin/libraries/BMO/Freepbx_conf.class.php:1120
 #: amp_conf/htdocs/admin/libraries/BMO/Freepbx_conf.class.php:1137
@@ -4138,7 +4137,7 @@ msgstr ""
 
 #: ../core/Console/Trunks.class.php:77
 msgid "Enabling Trunk "
-msgstr "Включение транка"
+msgstr "Включение транка "
 
 #: ../core/Console/Trunks.class.php:42
 #, php-format
@@ -4206,7 +4205,7 @@ msgstr ""
 
 #: ../core/views/quickCreate.php:88
 msgid "Enter name"
-msgstr "введите имя"
+msgstr "Введите имя"
 
 #: amp.i18n.php:560
 msgid ""
@@ -4333,7 +4332,7 @@ msgstr "Ошибка(-и) при активации %s"
 #: amp_conf/htdocs/admin/libraries/Console/Moduleadmin.class.php:300
 #: amp_conf/htdocs/admin/libraries/Console/Reload.class.php:23
 msgid "Error(s) have occured, the following is the retrieve_conf output:"
-msgstr "Произошла ошибка(-ки), ниже вывод из retrieve_conf"
+msgstr "Произошла ошибка(-ки), ниже вывод из retrieve_conf:"
 
 #: amp_conf/htdocs/admin/page.modules.php:196
 #: amp_conf/htdocs/admin/page.modules.php:226
@@ -4432,7 +4431,7 @@ msgstr "Срок действия"
 
 #: ../core/views/trunks/pjsip.php:417
 msgid "Expiration time for registrations in seconds."
-msgstr "Срок действия регистрации в секундах"
+msgstr "Срок действия регистрации в секундах."
 
 #: ../core/views/routing/form.php:528
 msgid "Export Dialplans as CSV"
@@ -4639,11 +4638,11 @@ msgstr ""
 
 #: amp_conf/htdocs/admin/libraries/Builtin/UpdateManager.php:381
 msgid "Failed to send security notification email"
-msgstr "Ошибка пи отправке на email уведомления о безопасности "
+msgstr "Ошибка при отправке на email уведомления о безопасности"
 
 #: amp_conf/htdocs/admin/libraries/Builtin/UpdateManager.php:430
 msgid "Failed to send unsigned modules notification email"
-msgstr "Ошибка отправки на email  уведомления о неподписанных модулях "
+msgstr "Ошибка отправки на email уведомления о неподписанных модулях"
 
 #: amp_conf/htdocs/admin/libraries/Builtin/UpdateManager.php:408
 msgid "Failed to send update notification email"
@@ -4805,7 +4804,7 @@ msgstr ""
 
 #: amp_conf/htdocs/admin/libraries/Console/Motd.class.php:100
 msgid "For support please visit: "
-msgstr "Для поддержки посетите:"
+msgstr "Для поддержки посетите: "
 
 #: ../core/views/trunks/pjsip.php:321
 msgid "Forbidden Retry Interval"
@@ -4929,7 +4928,7 @@ msgstr ""
 
 #: ../core/functions.inc/drivers/PJSip.class.php:207
 msgid "Force use of return port."
-msgstr "Запуск использования обратного порта"
+msgstr "Принудительное использование возвращенного порта."
 
 #: ../core/functions.inc/drivers/PJSip.class.php:249
 msgid "Forced"
@@ -5153,7 +5152,7 @@ msgstr ""
 #: amp_conf/htdocs/admin/libraries/BMO/GPG.class.php:483
 #, php-format
 msgid "GPG took too long to run the command: [%s]"
-msgstr " Слишком длинная команда  GPG для запуска  :[%s]"
+msgstr " Слишком длинная команда GPG для запуска: [%s]"
 
 #: amp.i18n.php:490
 msgid "GUI Behavior"
@@ -5206,7 +5205,7 @@ msgstr "Генерируется CSS..."
 
 #: ../core/functions.inc/drivers/Sip.class.php:21
 msgid "Generic CHAN SIP Driver"
-msgstr "Универсальный драйвер CHAN SIP "
+msgstr "Универсальный драйвер CHAN SIP"
 
 #: ../core/functions.inc/drivers/Custom.class.php:9
 msgid "Generic Custom Driver"
@@ -5344,7 +5343,7 @@ msgstr ""
 
 #: amp_conf/htdocs/admin/views/menu.php:50
 msgid "Hello, "
-msgstr "Привет,"
+msgstr "Привет, "
 
 #: amp_conf/htdocs/admin/libraries/view.functions.php:472
 msgid "Helpful Information"
@@ -5375,7 +5374,7 @@ msgstr ""
 #: amp_conf/htdocs/admin/libraries/BMO/GPG.class.php:750
 #, php-format
 msgid "Home directory %s doesn't exist, and I can't create it"
-msgstr "Домашняя директория %s не существует, и  невозможно создать её."
+msgstr "Домашняя директория %s не существует и невозможно её создать"
 
 #: ../core/functions.inc/drivers/Sip.class.php:334
 msgid "Host"
@@ -6007,7 +6006,7 @@ msgstr "Внутреннее пользование"
 
 #: ../core/views/trunks/pjsip.php:468
 msgid "Interval at which to qualify."
-msgstr "Интервал, после которого начинать проверку"
+msgstr "Интервал для проверки."
 
 #: ../core/views/routing/form.php:387
 msgid "Intra-Company"
@@ -6330,7 +6329,7 @@ msgstr "Убедитесь,что модуль установлен и акти�
 
 #: amp_conf/htdocs/admin/views/noaccess.php:42
 msgid "Make sure you entered the address correctly."
-msgstr "Убедитесь,что введённый адрес корректный"
+msgstr "Убедитесь что введённый адрес корректный."
 
 #: amp_conf/htdocs/admin/views/noaccess.php:37
 msgid "Make sure you have access to this item."
@@ -6604,7 +6603,7 @@ msgstr "Модуль \"%s\" не подписан и должен быть сн�
 #: amp_conf/htdocs/admin/libraries/modulefunctions.class.php:3270
 #, php-format
 msgid "Module \"%s\" signed by an invalid key."
-msgstr "Модуль \"%s\" подписан недействительным ключом"
+msgstr "Модуль \"%s\" подписан недействительным ключом."
 
 #: amp_conf/htdocs/admin/libraries/Console/Moduleadmin.class.php:400
 #: amp_conf/htdocs/admin/libraries/Console/Moduleadmin.class.php:1025
@@ -7099,7 +7098,7 @@ msgstr "Нет директории %s, нет необходимости в у�
 
 #: amp_conf/htdocs/admin/libraries/Console/Moduleadmin.class.php:1210
 msgid "No enabled modules depend on this module."
-msgstr "Нет включённых модулей, зависящих от этого модуля "
+msgstr "Нет включённых модулей, зависящих от этого модуля."
 
 #: amp_conf/htdocs/admin/libraries/BMO/LoadConfig.class.php:63
 #: amp_conf/htdocs/admin/libraries/BMO/LoadConfig.class.php:116
@@ -7225,7 +7224,7 @@ msgstr ""
 
 #: amp_conf/htdocs/admin/libraries/Console/Moduleadmin.class.php:1103
 msgid "Not Installed (Available online: "
-msgstr "Не установлено(Доступно онлайн:"
+msgstr "Не установлено (Доступно онлайн: "
 
 #: amp_conf/htdocs/admin/views/module_admin/tab-modules.php:80
 #, php-format
@@ -7267,7 +7266,7 @@ msgstr ""
 
 #: ../core/page.astmodules.php:51
 msgid "Note that this is for ASTERISK modules, not FreePBX Modules."
-msgstr "Имейте ввиду,что это для Asterisk-модулей, а не для FreePBX-модулей"
+msgstr "Имейте ввиду, что это для модулей Asterisk, а не для модулей FreePBX."
 
 #: amp_conf/htdocs/admin/views/welcome.php:15
 msgid "Notice"
